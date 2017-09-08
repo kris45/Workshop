@@ -1,0 +1,32 @@
+.hot-themes {
+    background: $gray-medium;
+    line-height: 19px;
+
+    &__title {
+        float: left;
+        background: $hot-themes-title-background;
+        font-size: 1.125rem;
+        color: $white;
+        line-height: 19px;
+        padding: 4px 17px 8px 14px;
+
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+    }
+
+    &__item {
+        float: left;
+        padding: 5px 15px 0 12px;
+        font-size: 1.125rem;
+    }
+
+    &__link {
+        color: $default-text;
+
+    }
+}

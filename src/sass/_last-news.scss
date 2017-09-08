@@ -1,0 +1,40 @@
+.l-left-column {
+
+    .last-news__title {
+        position: relative;
+    }
+}
+
+.news {
+
+    width: 382px;
+    float: left;
+
+    .small-photo::after {
+        right: 194px;
+        bottom: 3px;
+    }
+
+
+    &__link {
+        position: relative;
+        left: -5px;
+        line-height: 25px;
+        color: $default-text;
+    }
+
+    &__link:hover {
+        text-decoration: underline;
+        color: $default-link;
+    }
+
+    &__list {
+        font-weight: bold;
+        padding: 0 0 0 15px;
+        margin: 0;
+        position: relative;
+        top: -4px;
+        letter-spacing: -.27px;
+    }
+
+}

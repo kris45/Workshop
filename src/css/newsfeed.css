@@ -1,0 +1,20 @@
+.newsfeed {
+  margin-top: 24px; }
+  .newsfeed .news__item {
+    letter-spacing: -.4px;
+    line-height: 21px; }
+  .newsfeed .news__link {
+    top: 2px;
+    line-height: 18px; }
+  .newsfeed .news__item:first-child {
+    list-style: none;
+    position: relative;
+    left: -10px;
+    top: 7px;
+    width: 380px;
+    margin-bottom: 11px; }
+    .newsfeed .news__item:first-child .news__link {
+      line-height: 25px; }
+  .newsfeed .news__item-img {
+    float: left;
+    margin-right: 7px; }

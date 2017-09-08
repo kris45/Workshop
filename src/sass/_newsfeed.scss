@@ -1,0 +1,44 @@
+.newsfeed {
+    margin-top: 24px;
+
+    .news__item {
+        letter-spacing: -.4px;
+        line-height: 21px;
+    }
+
+    .news__link {
+
+        top: 2px;
+        line-height: 18px;
+    }
+
+    .news__item:first-child {
+        list-style: none;
+        position: relative;
+        left: -10px;
+        top: 7px;
+        width: 380px;
+        margin-bottom: 11px;
+
+
+        .news__link {
+            line-height: 25px;
+        }
+    }
+
+    .news__item-img {
+        float: left;
+        margin-right: 7px;
+    }
+
+    .small-photo::after {
+        right: 129px;
+        bottom: 5px;
+    }
+
+    .small-video-gray::before {
+        right: 102px;
+        bottom: 2px;
+    }
+
+}

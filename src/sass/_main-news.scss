@@ -1,0 +1,47 @@
+.main-news {
+    position: relative;
+
+    &__list {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+
+        figcaption {
+            top: -4px;
+            position: relative;
+        }
+    }
+
+    &__item {
+
+    }
+
+    &__title {
+        width: 142px;
+        color: $default-text;
+        font-weight: bold;
+    }
+}
+
+.block-title__heading {
+    font-size: 24px;
+    margin: 15px 0 4px;
+    color: $default-link;
+}
+
+.main-news__title .block-title__heading {
+    color: $default-text;
+}
+
+
+.block-title__heading + hr {
+    height: 2px;
+    background: $red;
+    width: 268px;
+}
+
+.news__item {
+    position: relative;
+}

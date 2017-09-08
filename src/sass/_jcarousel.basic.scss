@@ -1,0 +1,106 @@
+.jcarousel-wrapper {
+    margin: 22px 0;
+    position: relative;
+    border-bottom: 5px solid $red;
+    background: $carousel-background;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+// Carousel
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.carousel__image {
+    float: left;
+}
+
+// Article
+
+.jcarousel__article {
+    float: left;
+    width: 244px;
+    padding: 6px 22px;
+    box-sizing: border-box;
+}
+
+.jcarousel__title {
+    font-size: 30px;
+    color: $red;
+    font-family: 'PT Serif', serif;
+    line-height: 36px;
+    letter-spacing: -.3px;
+}
+
+.jcarousel__text {
+    padding: 9px 20px 0 0;
+    letter-spacing: -.1px;
+}
+
+// Carousel Controls
+
+.jcarousel-control-next {
+    background: url("../img/carousel-arrow-sprite.png") no-repeat -12px -0px;
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 24px;
+    right: 12px;
+    bottom: -100px;
+    top: 215px;
+}
+
+.jcarousel-control-prev {
+    background: url("../img/carousel-arrow-sprite.png") no-repeat -0px -0px;
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 24px;
+    right: 108px;
+    bottom: -100px;
+    top: 215px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+
+    cursor: default;
+}
+
+// Carousel Pagination
+
+.pagination {
+    position: absolute;
+    font-size: 18px;
+    right: 60px;
+    bottom: -5px;
+    font-weight: 700;
+}
+
+.pagination-img {
+    position: absolute;
+    bottom: 2px;
+    right: -24px;
+}

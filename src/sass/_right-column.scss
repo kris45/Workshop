@@ -1,0 +1,23 @@
+.media-block {
+
+}
+
+.media__item {
+    list-style: none;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.media__list {
+        margin: 24px 0 0 360px;
+}
+
+.media__title {
+    font-weight: bold;
+    font-size: 18px;
+    color: $default-text;
+    width: 218px;
+    line-height: 19px;
+    position: relative;
+    top: -4px;
+}
